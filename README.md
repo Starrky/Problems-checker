@@ -3,14 +3,12 @@
 
 # Installation
 
-**In order to use this tool, you need to install python3 and chrome browser and keep it updated**: https://www.python.org/downloads/ and choose newest version of the installers for your OS.
-
-Chrome download link: https://www.google.com/chrome/
+**In order to use this tool, you need to install python3 and chrome browser and keep it updated**: https://www.python.org/downloads/ and choose newest version of the installers for your OS**(select "Add to path" checkbox during installation)**.
 
 ![alt text](https://i.imgur.com/06EspWQ.png)
 
-(select "Add to path" checkbox during installation)
 
+Chrome download link: https://www.google.com/chrome/
 ## After installing Chrome and Python
 
 **For Windows** from project directory in terminal run:
@@ -56,3 +54,6 @@ Then you should just run the Main.py file normally, but preferably through CMD s
 python Main.py
 ```
 
+If everything runs fine then CMD should look more or less like this:
+
+![alt text](https://i.imgur.com/b4283Pb.png)
