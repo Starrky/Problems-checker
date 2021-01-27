@@ -20,7 +20,7 @@ countries_folder = cfgs.Countries_folder
 onlyfiles = [f for f in listdir(countries_folder) if isfile(join(countries_folder, f))]
 
 # Sheetnames with POS/ BOS data in excel files 
-sheets = ['PPL', 'CZ', 'RO', 'HU', 'HR', 'EE', 'BG', 'IT', 'RS', 'PLT', 'PLV', 'PSK', 'PSI']
+sheets = cfgs.zbx_sheets
 
 # Paths and links setup
 problems_link = cfgs.zbx_problems_link
@@ -99,7 +99,8 @@ for key, value in mapping.items():
         POS4.append(key)
 
 
-print(f'POS1: {BOS}\nPOS2: {POS1}\nPOS3: {POS2}\nPOS4: {POS3}\nBOS: {POS4}')
+print(f'\n\n *** OFFLINE DEVICES SUMMARY ***\n\nPOS1 offline for: {BOS}\n\nPOS2 offline for: {POS1}'
+      f'\n\nPOS3 offline for: {POS2}\n\nPOS4 offline for: {POS3}\n\nBOS offline for: {POS4}')
 
 # Read country file and change columns showing status of devices
 for file in onlyfiles:
