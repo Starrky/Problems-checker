@@ -7,7 +7,7 @@
 
 Chrome download link: https://www.google.com/chrome/
 
-![alt text](https://imgur.com/06EspWQ)
+![alt text](https://i.imgur.com/06EspWQ.png)
 
 (select "Add to path" checkbox during installation)
 
