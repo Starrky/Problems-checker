@@ -3,3 +3,5 @@ _pycache_
 .vscode
 debug.log
 configs.py
+*.xlsx
+*.csv
