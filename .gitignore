@@ -5,3 +5,5 @@ debug.log
 configs.py
 *.xlsx
 *.csv
+.idea
+__pycache__
