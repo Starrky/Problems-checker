@@ -54,6 +54,6 @@ Then you should just run the Main.py file normally, but preferably through CMD s
 python Main.py
 ```
 
-If everything runs fine then CMD should look more or less like this:
+If everything runs fine then CMD should look more or less like this(on top of eupdated Excel files of course):
 
 ![alt text](https://i.imgur.com/b4283Pb.png)
